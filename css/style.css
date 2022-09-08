@@ -1,0 +1,64 @@
+body {
+    background-size: cover;
+    background-image: url('../images/background.jpg');
+}
+
+.row {
+    margin-top: 80px
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.college {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.profile-image {
+    width: 445px;
+    border-radius: 50%;
+}
+
+.box-container {
+    margin-top: 108px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.box-1 {
+    line-height: 46px;
+    font-style: italic;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #5068F2;
+    width: 210px;
+    height: 50px;
+}
+
+.box-2 {
+    line-height: 46px;
+    font-style: italic;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 35px;
+    border-radius: 15px;
+    background-color: #F25050;
+    width: 210px;
+    height: 50px;
+}
